@@ -1,0 +1,792 @@
+[
+  {
+    "installed": "etc/systemd/system/hector-module-audio-support.service",
+    "sha256": "cd6c84f18f154221fc0f9cede2f79b9138c1061956918397b12e6e2253403ed5",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "etc/systemd/system/hector-module-batch.service",
+    "sha256": "c1cd2d396805d4910cfb99c5306747583ccf991b725aaf05f9bd145123120dda",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "etc/systemd/system/hector-module-catalog.service",
+    "sha256": "608089606106edffece3e0529710d92d0c8b8e65b3d52703c0e051d50474047e",
+    "source": "shared/runtime-variants/608089606106edffece3e0529710d92d0c8b8e65b3d52703c0e051d50474047e/etc/systemd/system/hector-module-catalog.service"
+  },
+  {
+    "installed": "etc/systemd/system/hector-module-restart.socket",
+    "sha256": "f6d8ff96d78c05359632eacf9ed9f568f01bfb389a6ab337f04f25d37a346d69",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "etc/systemd/system/hector-module-restart@.service",
+    "sha256": "f62c3eab1603bc02881cca3eebbdd82c52b9870c25c4a50b4033e95d1f71d1fd",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "etc/systemd/system/hector-platform-flash-bootstrap.service",
+    "sha256": "f679e58f17bccef78608ad32a44a6eff9536490e0caca7273c7593b65026cab9",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "etc/systemd/system/hector-platform-flash-status.service",
+    "sha256": "019595ea13886f29bf45740ad81ddc5b4caebf64cfff3855b430cfc232301b77",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "etc/systemd/system/hector-platform-recovery.service",
+    "sha256": "c20cbede39e0ef47e906d62aa876bbf52c71d7e537a126ffcd8ff6249f7d9cec",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "etc/systemd/system/hector-platform-update.service",
+    "sha256": "281acf5ba90ad0a7e29ee6442ae8d8ef9753ab31c436ad1137395bb4e1fa2302",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "etc/systemd/system/hector-platform-verify.service",
+    "sha256": "1448e2e783cc9c3bb1367bbf25be1712748d3c43ce31688989a6a666d96d58ba",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "etc/systemd/system/jack.service.d/95-poly-view-modules.conf",
+    "sha256": "bd1adf4633f8db47a0cb8d2beac306cd0348d8747944090b75b1e48cfac77278",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "etc/systemd/system/lightdm.service.d/95-poly-view-modules.conf",
+    "sha256": "bd1adf4633f8db47a0cb8d2beac306cd0348d8747944090b75b1e48cfac77278",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "etc/systemd/system/multi-user.target.d/95-poly-view-platform.conf",
+    "sha256": "ec1ff76639036fbff12c98e9e4978be9a0b404c8ec89e0ae453d0bb62bf2290b",
+    "source": "shared/runtime-variants/ec1ff76639036fbff12c98e9e4978be9a0b404c8ec89e0ae453d0bb62bf2290b/etc/systemd/system/multi-user.target.d/95-poly-view-platform.conf"
+  },
+  {
+    "installed": "etc/tmpfiles.d/hector-module-catalog.conf",
+    "sha256": "7d226a8347a040df9f3f84ff160605a6d2f0a17d7da07ce1eb2cb9fa5658a410",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/ingen.py",
+    "sha256": "fac153b7ddb35c8d4046320cd314444caef26ebf25b674acae89fb28ae6fe0f1",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "07a0da4928d553c1840f80e92e09cc119157e524550bdaa43a02a77d42fe45e0",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "1ae2b75108c0b490cd99b724ccdeb3ad1dc61f75ca9f58e28c30c3ecebadba1c",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "2bb820a5936ac747da23999091ad8168f73f833a7923e471c38a66378a0648fd",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "5c8415356942531cc82b2410bd203e6b7770fc2c97c1aa2f4cb2c5b57c53a4fa",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "5c8eddef9dd38b27da80e582a236ce1c6068e0e4d6ae58aa549a6fa6deab114b",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "5ee891fe1b2f6c65dae738a96be60ca2964992301cf00084100ac75003471775",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "6a93394fb92926d41acd69491bfd7b8381fb77a4c33eb869783f6a01455af55c",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/ingen_wrapper.py",
+    "sha256": "9a11ab20b3096d36559219abdcb2904d12c13adf2f1b3a2a15f488e17bbbde29",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/mala_407.py",
+    "sha256": "4e0c8fda3e7a71b6350135b221d82d7cac63c378b17e3ee371f5a8a93606411d",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "3216db5375044962b6ec2a24d8300aa8df85f4b8fff24ffd0c470e9b7d1d37cb",
+    "source": "shared/runtime-variants/3216db5375044962b6ec2a24d8300aa8df85f4b8fff24ffd0c470e9b7d1d37cb/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "3b6cb4637e34450f2bc8a410c4f90f06aa742ce919d9e028da4c95f53243de7f",
+    "source": "shared/runtime-variants/3b6cb4637e34450f2bc8a410c4f90f06aa742ce919d9e028da4c95f53243de7f/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "7d94201cb6b249df4735e86cb0fa566b2817a33839f0c380dfa7a4becd75e8ce",
+    "source": "shared/runtime-variants/7d94201cb6b249df4735e86cb0fa566b2817a33839f0c380dfa7a4becd75e8ce/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "9d23a787a24acc1f94e8974e25fb12687bb15b7323a44f312899d751a0692efd",
+    "source": "shared/runtime-variants/9d23a787a24acc1f94e8974e25fb12687bb15b7323a44f312899d751a0692efd/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "b16cf3cd03a693af19b28974dafcba5436b3bb09417513e67dcd0dc002dd8a1e",
+    "source": "shared/runtime-variants/b16cf3cd03a693af19b28974dafcba5436b3bb09417513e67dcd0dc002dd8a1e/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "b2455aa08aecefd0477012600798be10c8556d54ad89f3db5c21701e50b8583d",
+    "source": "shared/runtime-variants/b2455aa08aecefd0477012600798be10c8556d54ad89f3db5c21701e50b8583d/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "cef2996a88db697b098e0a357bbacaafdb804251c852d952ada058fde23c70ab",
+    "source": "shared/runtime-variants/cef2996a88db697b098e0a357bbacaafdb804251c852d952ada058fde23c70ab/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/module_info.py",
+    "sha256": "d56e3505d8eeb62a349c19cb5562669acdf748fb7a5d358ad4e74e09024d5c98",
+    "source": "shared/runtime-variants/d56e3505d8eeb62a349c19cb5562669acdf748fb7a5d358ad4e74e09024d5c98/home/debian/UI/module_info.py"
+  },
+  {
+    "installed": "home/debian/UI/poly_view_module_state.py",
+    "sha256": "def01d850ad979d87d474f3293a69e8522f8c1315cc5e15da37d61ec0862c66d",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/poly_view_native.py",
+    "sha256": "a6c2acb99ff30fb50a061d77101e330ab5b97614fc81f04c17b29c07ad17a6a8",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/poly_view_usb.py",
+    "sha256": "ed9a6c86b4ac3d9eaa81ca0f4f4fe69475792ca959c46fb05f408a40bc72722c",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "3aed0c4e7be338580af9aeb3c0aa705afac8478f4d5ccbcba40ee89dfa32f38b",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "3ff25e80b8336e57c9e4c9e67f32d113a2008bd7c1fc35933f52e32a10a670af",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "452bfa80df8f2b790c06e640a9c2b29dbefa1dad530e58bbf858c0c7797cdf76",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "5f8fbb2f96cc1fa1cd540932d8eeaa982c237b4ad6ec4fae59efd517e32a52bb",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "8437ca44f65f853f1c932f4f3b0533e5e9e5ad1a7d42d3a8585ada26480dc843",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "885b2274ad0b5543e28851a8c182042fc482aca1962f6c0c8da65ac4743b510c",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "98a5e5c50e19c2a580beb71464ed992ae96da9f8e8334cc55e9ffb4267f49eca",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/PatchBayEffect.qml",
+    "sha256": "e86b91f9f24755bc597d4471a738c98552d5dd9e0e1cc1a1492a97766ff0db12",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/PolyViewNativePanel.qml",
+    "sha256": "530dd20eef3db4b4d632fc6ffb363303b0bdda9712b96f909bd1e53c56699196",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/PolyViewNativePanel.qml",
+    "sha256": "5953f5a53a8baab8818f134c4c8318b4ca9dab4470ee44cdd452da3c9e7e163b",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/PolyViewNativePanel.qml",
+    "sha256": "b07ca0a03f4faeb3482c54108284d0410e4b91c5a955b80ad02a6fce0b6d6d91",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/PolyViewNativePanel.qml",
+    "sha256": "cf140f429d7649b27f6d3998bde2ad20955b36124ea766ccec138ec7aa54aba5",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/Settings.qml",
+    "sha256": "e03d64106377e3997702448c7901d416ea278c69eeae1b5a4a08e5e468334cda",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/TitleFooter.qml",
+    "sha256": "9265cdbdccd7ca42754382aeb64f4c11c19eed8a3b8836976d0e1059e58da47e",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/TitleFooter.qml",
+    "sha256": "9bb891ffba3a1d9e2457358c8746586586f9737892e1c3e515585f12d16f47c4",
+    "source": "shared/runtime-variants/9bb891ffba3a1d9e2457358c8746586586f9737892e1c3e515585f12d16f47c4/home/debian/UI/qml/TitleFooter.qml"
+  },
+  {
+    "installed": "home/debian/UI/qml/UsbModules.qml",
+    "sha256": "b2513465c37d6b144129743adca0b06a963285702ba59166afa28fc3498853fc",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/BeadsBadge.qml",
+    "sha256": "dbcdce61e96ded2ebacf336f22864febe258129068c113c3a18182f0361b3b88",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/BeadsKnob.qml",
+    "sha256": "35aa3c699ad9bbca0734471bd2ba099c622544225a2e9cf6db44f5597e57f857",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/BeadsSwitch.qml",
+    "sha256": "6e8eb0b01bfecb22e217449ff28bae2a2cd9cbfabe998a24963c6cde6290e75d",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/Editor.qml",
+    "sha256": "5c55d711a14029959923e465cef081d050dd5fc3989db9610f7d8ae4a27bedab",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/EnvelopeGraphic.qml",
+    "sha256": "910cfef6980cbd2d51e1045cabdb85ad85496cbc59add15109b31cf210fc93db",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/FirmwarePanel.qml",
+    "sha256": "068d4fa4dc43ce82f07ad730c45da33d07837604d4551c7b4b3852aeeb4083ff",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/LibraryPanel.qml",
+    "sha256": "c350a3e0f488f7fbfdf9bd7a82f058172a92448ab72a594766d00a5991ff7e1b",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/ModeHelpDialog.qml",
+    "sha256": "21e44d6b59de3a73e05f581d4ea2c90ae1424a79afa9967de40a062fe993ceeb",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/ParameterSlider.qml",
+    "sha256": "e58da193cffe586dfa1495525abaec486719a16207969a16bc65c687f346f127",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/TouchButton.qml",
+    "sha256": "10ad2eafe0e093dba6c3dde1d74807643e23ba570cdc6875c55754d07f4f560c",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/assets/knob-body.png",
+    "sha256": "a5d0b21e50e17463b1299a7bb64407c330e13cc945d731db08978aef9f8a6e4b",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/assets/silver-button.png",
+    "sha256": "2eee4b60256d20bb2365a3e8f9e21cc75744cea3dca90c6a5c85b0038961287b",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/qml/mala/assets/silver-panel.png",
+    "sha256": "97463f82691a5dd823c15994bdfb3d7bf8a65be007aff91b9e3c9f6ce457b91f",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "0b9303171b7bc5d2adc7f85935c4b004761282cf09299fbc378af28fbf443fb4",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "1db57fd6d10eac3d1006cb7f1ea8d6c90bba15c122b59ee39e671ec47a221e06",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "226172ce0363bdb3a13d12c15334058eb819c5a5c0107f22bfb4228d3d287cce",
+    "source": "shared/runtime-variants/226172ce0363bdb3a13d12c15334058eb819c5a5c0107f22bfb4228d3d287cce/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "241f302de319d2cb4387dff65e40a4c0456ec70c88a96f0a4588ae202e37b7cc",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "2c5845aa2104d988427410302892509a6467878c219104316131958ffc26f3be",
+    "source": "shared/runtime-variants/2c5845aa2104d988427410302892509a6467878c219104316131958ffc26f3be/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "32aa95cc8c83782ac484a37fe32634d0468ef05f02da07087489baca6ed487d9",
+    "source": "shared/runtime-variants/32aa95cc8c83782ac484a37fe32634d0468ef05f02da07087489baca6ed487d9/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "33097e5f3a358f542e943672926738f3c66e7984b36aa0bdc042c1adf7c3a388",
+    "source": "shared/runtime-variants/33097e5f3a358f542e943672926738f3c66e7984b36aa0bdc042c1adf7c3a388/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "45280eaf2ee36b0d4150add1abc385772e0c242194927d2c747bd9aa355b5f4f",
+    "source": "shared/runtime-variants/45280eaf2ee36b0d4150add1abc385772e0c242194927d2c747bd9aa355b5f4f/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "4f24d3d6376b02a1c1189b62b22e781371d3c67c16c81e63657106a5e49637ee",
+    "source": "shared/runtime-variants/4f24d3d6376b02a1c1189b62b22e781371d3c67c16c81e63657106a5e49637ee/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "5348cee539f416016dd623a6e6f238de20eea93bb2f8031fbb12de84da454ec6",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "5ee80bacf74c892b22dc95291a81f0bab7ed2b914ecac667547b6e4908e67499",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "6b0b4ad84c7a56f71e89e8795f8bb2eea4da68e13d0b661e5faba732010dd316",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "70494a3c875e2cbd6ba31f5c2a82a302e396b33b3e582fc627d2c2362caa5f2b",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "7521eb05dc6bd5f0b6e4f78310243cd70dbc2b718d21bccb227a5fc10b381a7c",
+    "source": "shared/runtime-variants/7521eb05dc6bd5f0b6e4f78310243cd70dbc2b718d21bccb227a5fc10b381a7c/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "8719af7cad6a08179adf4af25390c3f1ea0903b2958ae77d0f0ae974ecc4c8b7",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "9ade95b94749e956c084c95ef25feb424aab76fd7dbccf5a5e1754f61ea7019a",
+    "source": "shared/runtime-variants/9ade95b94749e956c084c95ef25feb424aab76fd7dbccf5a5e1754f61ea7019a/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "a117856f7fe2fdd5ccfbfc56425cd9f5b2f01768b0652c60bfd32a71584bb259",
+    "source": "shared/runtime-variants/a117856f7fe2fdd5ccfbfc56425cd9f5b2f01768b0652c60bfd32a71584bb259/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "a1c99607be8c963d0eae71725a8f32b6eca58788440673df8266908b21cd7f5f",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "a7cc25fbd12ca6d08560d4ea654c03d446d4fb5ad670902a91afb92a50b6e231",
+    "source": "shared/runtime-variants/a7cc25fbd12ca6d08560d4ea654c03d446d4fb5ad670902a91afb92a50b6e231/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "d30f2b20a5a71c8f852a7a92132f73ffc8e4401c76caedb8661efbb91397f196",
+    "source": "shared/runtime-variants/d30f2b20a5a71c8f852a7a92132f73ffc8e4401c76caedb8661efbb91397f196/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "d9e9ba5451aa49647915b4b80a0c65c8551e436f7dbb15ad6fdfa2fa77eafcd8",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "dfde16a9258b38c88d88c7ee3d93e40f31e08c23916415e869c96b6eefda2449",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "ebc30780499cea2a62c4ac4f384264b35db8d33592534e1402500560aee7391c",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "home/debian/UI/show_widget.py",
+    "sha256": "fa9092d49b64581f21eee006f5fa1a7de1c276a941a516a3baf256a4bb2cc20d",
+    "source": "shared/runtime-variants/fa9092d49b64581f21eee006f5fa1a7de1c276a941a516a3baf256a4bb2cc20d/home/debian/UI/show_widget.py"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/audio_support.py",
+    "sha256": "1e7a7d890ac30cf68e2b87e51721df542af246db443318d243f42081ebf674aa",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "0be6591ed24b966b0fdebf1a9d845205f3dde1134a7d00c480bfa4c401c31af4",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "240f58fff20bb1210ad16524e332b4ec9a638c3452c4d1b212b1bf5d42311e93",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "4e205ca5268de7ea4d28c85ccfd8f660c78ee4ac14d5811f95f3eb6ca9f2c467",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "984d04cd469c9f8d2e63518569bcce3123c6532e991b03655653beefe8dd1cb3",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "a5e86ff86fe3ec1318f5bccd534a2b6e7ed42107acf7a01186433e4dfb9dbe32",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "cce2d447a1fead1413fab5e40b80c4a4094162809c4cc16826afae5e6d1ab428",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/community-catalog.json",
+    "sha256": "eb251557793ac2f71abd5dacac927d8487613203c665924b6b38466090afaf17",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/core.py",
+    "sha256": "849a5e2617d5ae9a99ef678600cf82eb6f17d7cbe74359b9b804d1fac4cb3516",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/export_module_inventory.py",
+    "sha256": "a3154f344b7e38ad983311ad9451d583951f03f471f17b4f374abe5930522950",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/flash-repair.zip",
+    "sha256": "a77b0f762381b04b77d378278e76338da14df0352750aa0a07c98e6391589725",
+    "source": "Hector-Flash-Repair-0.1.0-spi-rx.9-Source.tar"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_batch_service.py",
+    "sha256": "9b0e9d1961c3a35665ea0d555bec3b81fb13f63ef430bc250b730c2e7c9da316",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_batch_worker.py",
+    "sha256": "21677ad3ae3ecb7804db1d3d706d5cde4e55808fe1844e88d537579aaaff7c03",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_manager.py",
+    "sha256": "a918db6ed19bb947160c89afcd1932e9bcb46993bb27d50ff7a0cacbe9b6e25a",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_offline.py",
+    "sha256": "d4eac164f50e0fb833dbb2742390350fc130959c7b5c120e53a470e6fe9830d8",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_restart.py",
+    "sha256": "75f32069cc91858fc533350275b4bda3ab41dfc8a78862d709b801d1d839e780",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_restart_service.py",
+    "sha256": "43f1864c481ac260658624d55656285ca73fe33f5d6067ba553626d644ac9218",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/module_usb.py",
+    "sha256": "8f102e8c68e5c650c25b19977eb6a9913b7063473cc0a6c73681eb2d1b2f1e8a",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "0a81a77d70586a6a07a36c47bf268fe2e8863a2be927f5b82c00b9088729a25a",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "154aa9c979b7c4d0c2f7c58a696bb2631d68d6ebb93afacf784dde932dee6409",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "16624601f39016c8cd25e2601981b122037dd18b055dfbaaa3b7b1b0db38cc0b",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "20cce770e34d94e6dffedea6b6fe4add3175588b96506aead45a5357f55e3f66",
+    "source": "shared/runtime-variants/20cce770e34d94e6dffedea6b6fe4add3175588b96506aead45a5357f55e3f66/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "348b07aca8e82af5d12c239aff20e0d4047014f5757e02eb94cb32400ef8445b",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "387d4719ba971cef52389355b95b84874a74dcc378b4982bb9c39654e270dcf5",
+    "source": "shared/runtime-variants/387d4719ba971cef52389355b95b84874a74dcc378b4982bb9c39654e270dcf5/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "4a2e18a6ec4ac4d66383127267fefed99b41bf70de6a453e75fe5f0501ecca85",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "4a60db3a25cdb750b6a2e684befca835579c7bdc9532d85f133076ee10465c1f",
+    "source": "shared/runtime-variants/4a60db3a25cdb750b6a2e684befca835579c7bdc9532d85f133076ee10465c1f/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "4b0ee7492ec78d5f69559c872f3de690832a11e07d1e22392f8130835d3a41a0",
+    "source": "shared/runtime-variants/4b0ee7492ec78d5f69559c872f3de690832a11e07d1e22392f8130835d3a41a0/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "5821ba6a73ba4ae3272e4e7474f43553fdbfdc6677db51090678aa66936ec850",
+    "source": "shared/runtime-variants/5821ba6a73ba4ae3272e4e7474f43553fdbfdc6677db51090678aa66936ec850/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "5a2d390b420ec2a5b00a8ef3e9bf91d419b89bf28c083b1e96cc6f2bd59338d1",
+    "source": "shared/runtime-variants/5a2d390b420ec2a5b00a8ef3e9bf91d419b89bf28c083b1e96cc6f2bd59338d1/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "676a90f991543bd3e464083a92b1b37806ab6431cb40bb4764faee8f1898093c",
+    "source": "shared/runtime-variants/676a90f991543bd3e464083a92b1b37806ab6431cb40bb4764faee8f1898093c/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "679153522439ba6f05ae6614cdc4aad8399382ee5609a20f965b0d04fb49b1cf",
+    "source": "shared/runtime-variants/679153522439ba6f05ae6614cdc4aad8399382ee5609a20f965b0d04fb49b1cf/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "77eb1ebf2d7f32e88cf09fd0e02f16a914a3355a7e351f26b4e1793ae420acf3",
+    "source": "shared/runtime-variants/77eb1ebf2d7f32e88cf09fd0e02f16a914a3355a7e351f26b4e1793ae420acf3/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "857ba46fe0eb1b5d72ebb953ed49d99fc92a1eb783d425ffa650992a180baa32",
+    "source": "shared/runtime-variants/857ba46fe0eb1b5d72ebb953ed49d99fc92a1eb783d425ffa650992a180baa32/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "96e8c2e83bcc496002d84632ba3df25a2362941ce5ed87ac1a41c5b5dbc9a294",
+    "source": "shared/runtime-variants/96e8c2e83bcc496002d84632ba3df25a2362941ce5ed87ac1a41c5b5dbc9a294/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "a5c03be8c27e4346aaa782969d9bbf3c8795ce35d7302d70cda743b6f8676137",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "ad75821bd2983f35c3148f579a032c206debc975b544ea8066b7c86d858a2e61",
+    "source": "shared/runtime-variants/ad75821bd2983f35c3148f579a032c206debc975b544ea8066b7c86d858a2e61/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "b664a67e4474f60bf4ebd6e2b77e38f6c9366a177465327da427d45e2c0cd263",
+    "source": "shared/runtime-variants/b664a67e4474f60bf4ebd6e2b77e38f6c9366a177465327da427d45e2c0cd263/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "befb00ec23aea24cf2430e0a235cf2a32a987aa8606a8c3aec4d01945a681a15",
+    "source": "shared/runtime-variants/befb00ec23aea24cf2430e0a235cf2a32a987aa8606a8c3aec4d01945a681a15/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "c6d954f8b832c70290b4b9ca1831e374f56a4a4fed0e47c21915aaec1d461c50",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "caf272a91293648e70dd1d0ac24b686e9bad86b0d63f6461fbcf0fd67d4bb88a",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "cdd02d13b0bdf90be129bda424d96fbe9aa1bb2e7265b84c7c548039a0aa7c75",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "d1e939f3575ee8d36102fdf7bdf4f71be0f9db3188173db766a15d0a4928bc8e",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "d93aa66aa2c607dc601c55bcc2487a58c65829ccd4fddd6451bc691978aa5584",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "da4fb8353bbf1e220b911bdb1a56658c92feb1b7ab5eeef1d4a2918b724eeaa6",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "e8c54916c43e4ea9acfa3ba8ba7c58e5c9d5d5df49c0ee95382f95bd4862f6d3",
+    "source": "shared/runtime-variants/e8c54916c43e4ea9acfa3ba8ba7c58e5c9d5d5df49c0ee95382f95bd4862f6d3/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "f464107ce162db6ef27bfdc734ec0a3bc3ed5712791c6c05eda4e3a79b4d6370",
+    "source": "shared/runtime-variants/f464107ce162db6ef27bfdc734ec0a3bc3ed5712791c6c05eda4e3a79b4d6370/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "f7894bb62841c5e0fb035cd6a3860e9e73c0b1c715a453b7953b82529ff86840",
+    "source": "shared/runtime-variants/f7894bb62841c5e0fb035cd6a3860e9e73c0b1c715a453b7953b82529ff86840/opt/hector-storage-manager/app/native-migrations.json"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native-migrations.json",
+    "sha256": "f7dac5cf78e20b2ce8bee9a66efe6bbb2dd6b28bb570c6c6b511d53302d967e2",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native_migration.py",
+    "sha256": "95d7fc413584795a37947d32808356f6243046e4a9bd3fa5bec057aa430875cf",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native_module.py",
+    "sha256": "3a0288012e688b4faa7a1c2b8a5c3900c70074f2e794b84df6bbf9f9a9c1b81c",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/native_release.py",
+    "sha256": "cf3f7c707c6df8948ea87a35e858a411ead52fbe44ac66c07647fd04b93807bf",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/platform_engine.py",
+    "sha256": "189b0340a16b358cfc301379636f1f4068c3cd41f99a35d855bab5c62722d4a8",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/platform_release.py",
+    "sha256": "997f0ef9fe132d22268308a4d9855410578860a4f724357667ed3a0c4d821239",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/platform_service.py",
+    "sha256": "c415378a03d64dd070184fb3358ecbeccfaac5d8dee12a814f117797034f66d6",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/platform_transaction.py",
+    "sha256": "aa962ccbb06b94a4e717416ae389d56a43bf4ba225ea19b8c04f2cab412bf66d",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/platform_update.py",
+    "sha256": "5cb6a3b01b1b19b5d3052b616a28d501194cccf8715bab068cfe94aaa3b959eb",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/publisher_release.py",
+    "sha256": "98e5261af2093ec51036060e2fbcf53924d027afaa5af7802410e7f96d2ba7fe",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/publishers.json",
+    "sha256": "08f74fec432955d68154236bdf5c0e7393fd1b0f6d1085891783dae554230cc0",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/stock407_modules.json",
+    "sha256": "4051b632dbbfe600ca834bc201d4ee1caa36b6291d13687114c4aad3bb094888",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/system_readiness.py",
+    "sha256": "9b4e9c4718c6893e69e7d7089e70cb00fa4999887c3913998f12c3404411316a",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/system_support.py",
+    "sha256": "952600bc6c53598d3dbf93ff39b70558d093baff5c4cbb1a58540788a5332bf9",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/system_support_contract.py",
+    "sha256": "a3cb431ae3003a4bedbcf8e088b2a33b5e6d1f10a91ad4423e8c2700a13b2e88",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/system_support_transaction.py",
+    "sha256": "c8de70c82193b8513a3b335bdc806287cca6bb4df6696fcde3a1562adcc77cfe",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/app/usb_release.py",
+    "sha256": "fe2f4b39559bb85b911ea58cfa5d287a78bfe0eaa54d043131042b8bd3827a74",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "opt/hector-storage-manager/runtime-version.json",
+    "sha256": "c431c467a6920ada7368322158ac000fcec6bdf90f8490dc08c695388c9bf7c0",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "usr/lib/lv2/hector-link-sync.lv2/manifest.ttl",
+    "sha256": "0e9c05a3cc32c3e14fbdea4484323da005023fe74e2e7356f08e6dd78e05cd39",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "usr/lib/lv2/mala.lv2/manifest.ttl",
+    "sha256": "55b31b9fc7ab7d7b02d01d5c126a78ad279e4f4278cd5cfa101e8933a4ae8426",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "usr/lib/lv2/poly303.lv2/manifest.ttl",
+    "sha256": "55b31b9fc7ab7d7b02d01d5c126a78ad279e4f4278cd5cfa101e8933a4ae8426",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  },
+  {
+    "installed": "usr/local/lib/poly-view-platform-recovery.py",
+    "sha256": "d0c070c65f7fa95f4d6db95b1baa1b39f35eac5a89e4a02c610738e63f98cb30",
+    "source": "Network-Connection-Poly-View-Hector-0.2.0-beta.1-Source.tar.gz"
+  }
+]

@@ -1,0 +1,7 @@
+# Credits and licenses
+
+- **Ableton Link** was developed by Ableton and its contributors. The Link helper used by this module is supplied by Network Connection. Its matching source archive includes Ableton Link and Asio and their notices. [Ableton Link](https://github.com/Ableton/link) · [Network Connection sources and notices](https://github.com/jahmontee/network-connection-poly-view/releases/tag/v0.2.0-beta.1)
+- **Poly Effects** and Loki Davison created Hector and its software. This is an independent community project. The shared installer includes host integration derived from the Poly Effects UI, with separate notices in the platform source archive. [Poly Effects digit_ui](https://github.com/polyeffects/digit_ui)
+- **LV2** is developed by its contributors. The vendored headers retain their copyright and license notices. [LV2](https://lv2plug.in/)
+- **Inter** is by Rasmus Andersson and contributors. Its SIL Open Font License appears with the module’s [font notice](module/editor/licenses/OFL-Inter.txt). The [GCC Runtime Library Exception](module/editor/licenses/GCC-Runtime.txt) accompanies the toolchain notice.
+- Hector adaptation, project direction, and physical testing by **jahmontee**, with development, testing, and packaging assistance from OpenAI Codex. Module code and bundled components retain their source notices. See [COPYING](COPYING) and the [component notices](LICENSES/).

@@ -1,0 +1,38 @@
+Signed Hector module release: direct USB and Poly / View
+
+Save your patch first. Keep this complete signed ZIP unchanged.
+Direct USB: extract the ZIP at the USB drive root, so debug.sh is at the top
+level. Start Hector with the drive inserted. Installation works offline. Network Connection must already be installed for this Link module. A browser is not required. With Flash Repair already active, Hector restarts automatically once.
+The network-free runtime adds Settings > Module Manager for signed USB installs,
+updates and confirmed removals. The original third-party USB process is preserved.
+Already-installed exact releases are verified without repeating the installation.
+
+Browser: Update Network Connection / Poly / View to a readiness-capable release
+first. Older managers safely reject this new native format. Then Module Manager
+> Upload ZIPs > select this exact complete ZIP > Install
+or Update. The browser verifies the publisher and applies only signed module
+data through the installed trusted transaction. Uploaded scripts are never run.
+Installing Network Connection later discovers this signed module automatically.
+Module identities and existing ordered ports stay compatible with saved patches.
+Module removal warns about saved-preset references and retains presets/user audio.
+Keep the preceding signed release for recovery. Completed-version downgrades
+are separate from interrupted-update recovery and are not implied by removal.
+USB startup does not repeat a processed release. For one deliberate retry,
+create RETRY-POLY-VIEW.txt at the USB root containing ableton-link-sync, or use
+Settings > Module Manager > Check ZIP for an explicit install/reinstall.
+
+On a fresh stock card, USB installs Flash Repair and restarts FIRST. Leave the
+drive inserted: the same installer resumes the guarded module install and
+restarts once more. Existing healthy repairs are reused without that extra boot.
+
+Includes the shared Hector preset-flash repair for supported firmware407.
+The repair is separately owned, reused once installed and retained on module removal.
+Older managers must be updated before reading this version2 module release.
+
+REQUIRED: install compatible Network Connection before this Link module.
+The installer checks this prerequisite; it never silently enables networking.
+
+Network Connection with Link Sync support is mandatory for OPERATION.
+Network Connection must already be installed before installing Sync.
+USB installation needs no internet. This release does not install or enable
+Network Connection or Link Audio.

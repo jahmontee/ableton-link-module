@@ -1,0 +1,32 @@
+{
+  "kernel_source_sha256": "6e3d83b6299cb838190a69b098b2d66ca548d40a2e2b9149b1f50bbaf0ffd218",
+  "shared_platform_source_sha256": "4843a78f61a2d8d13557c5ea6fdb1294f3724805c4e79671d925925f5937b953",
+  "shared_runtime_sha256": "a5bb6a252a39691911503e6ab26711bd8b4f9e80f2480656e449e325a3ca0db5",
+  "shared_storage_repair_sha256": "a77b0f762381b04b77d378278e76338da14df0352750aa0a07c98e6391589725",
+  "signed_editor_and_metadata_sha256": {
+    "LICENSE": "b6a8bf63ae2c95b0aa256ee774680d7bd18f21f457da75466f7610b3b16acc4e",
+    "editor/LiveButton.qml": "303a0d549fd9528e97b957a357795a78d0bdcec161dcdc97ccf3aeacabfc2365",
+    "editor/LiveChoice.qml": "1ecdb5768b27368a82cfbe22a5360c284b686b68538460dcb4236e4ce165847c",
+    "editor/LiveEditor.qml": "c92bb70e2534d9c0f541e3adfed56768b8cb6ba700141b3f040faf1cafc3685d",
+    "editor/LiveTempo.qml": "4e7fc66aad959f579e22d09838d796f7209fbace22aa4810f1f0a139c8383094",
+    "editor/PortablePanel.qml": "2f15aa50df4cdbb5081f455cbba5e4f43aeb1af96945bc353cd53b09e37c6887",
+    "editor/backend.py": "27fa2d81e1f507843067aae658534fbecee8117a633ad5b9cf47b9b445010a97",
+    "editor/engine.so": "8b27bba93ffcf3e889cfbd40a10904d45636c7dac8ec9dd403ee08d249801b19",
+    "editor/fonts/Inter-400.ttf": "db2007cac3f58427030755b0ff368cceef98dc503cf6d3d2aa366a4743f9749f",
+    "editor/fonts/Inter-500.ttf": "6906c67c75ca4ab456b46fa2a06150dcca99db018cccef86fd35183ac74b21e3",
+    "editor/fonts/Inter-600.ttf": "1bfc2a55504add1a87771cde89865a8b1a2cf6137e4309e9e03cfa9134786f7f",
+    "editor/fonts/Inter-700.ttf": "16586b28b0432e68f0099445946195dc97909ff7744f764eed708b38e61ca6c9",
+    "editor/licenses/GCC-Runtime.txt": "da8191658b3452ce9caf31638ba61dab31a38c619fa39df119812e050f592fd3",
+    "editor/licenses/LV2-ISC.txt": "c02b06be2ec45e4ebe1b0e4eb5f034f09da10f0c458534f1081eabd25d7b3a4f",
+    "editor/licenses/OFL-Inter.txt": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "editor/link-ports.json": "7c4b86802d11ee2b70c29a54f8b0e4e3443e35470602720fe215df751b5cbc30",
+    "editor/local_control_407.py": "985eb1f09269da7273426310eaee8b021019daeb176d62be8688153386d02063",
+    "editor/provider.py": "e916dd844664a6a2238f4848c7b08bb261c6f2745cec36f32356ef5b7fc72d6d",
+    "editor/sync_bridge.py": "1f857c9a4a701e6d843d95344cbd5b2083560cf532829c086bffb0381463cadf",
+    "module.json": "198f60fbe7c98bd2c4df5553bf37bbf2917be05b3bfe57295228ad1574a7f4cf",
+    "module.so": "54e4294779a2d4b3be4b460b0f0bcf7b05fcd2e59e5c00c2881ad4b41c0556ff",
+    "module.ttl": "347f76e4a2bb5b1a337e3f2ed625dadf1c4a779b963d1093de8c5b8372f50d2c"
+  },
+  "signed_usb_sha256": "f59b6643e326c399426aa1f9d71c9ee1ad6e9deefb00cb33cc17a3850cd6f390",
+  "version": "0.3.0-beta.8"
+}

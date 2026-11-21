@@ -1,0 +1,299 @@
+{
+  "sync": {
+    "uri": "urn:hector-community:link:sync",
+    "name": "Ableton Link",
+    "ports": [
+      {
+        "index": 0,
+        "symbol": "enabled",
+        "name": "Link Enabled",
+        "direction": "input",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "index": 1,
+        "symbol": "start_stop_sync",
+        "name": "Start Stop Sync",
+        "direction": "input",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "index": 2,
+        "symbol": "tempo_request",
+        "name": "Set Tempo (0 = Follow)",
+        "direction": "input",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 999
+      },
+      {
+        "index": 3,
+        "symbol": "quantum",
+        "name": "Launch Quantum (beats)",
+        "direction": "input",
+        "type": "Control",
+        "default": 4,
+        "minimum": 1,
+        "maximum": 32
+      },
+      {
+        "index": 4,
+        "symbol": "ppq",
+        "name": "Pulses per Quarter Note",
+        "direction": "input",
+        "type": "Control",
+        "default": 1,
+        "minimum": 1,
+        "maximum": 24
+      },
+      {
+        "index": 5,
+        "symbol": "transport",
+        "name": "Transport (-1 = Hold)",
+        "direction": "input",
+        "type": "Control",
+        "default": -1,
+        "minimum": -1,
+        "maximum": 1
+      },
+      {
+        "index": 6,
+        "symbol": "bpm",
+        "name": "BPM",
+        "direction": "output",
+        "type": "Control",
+        "default": 120,
+        "minimum": 0,
+        "maximum": 999
+      },
+      {
+        "index": 7,
+        "symbol": "clock",
+        "name": "Clock Pulse",
+        "direction": "output",
+        "type": "CV",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "index": 8,
+        "symbol": "running",
+        "name": "Run Gate",
+        "direction": "output",
+        "type": "CV",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "index": 9,
+        "symbol": "reset",
+        "name": "Start Reset Trigger",
+        "direction": "output",
+        "type": "CV",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "index": 10,
+        "symbol": "phase",
+        "name": "Quantum Phase",
+        "direction": "output",
+        "type": "CV",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "index": 11,
+        "symbol": "peers",
+        "name": "Connected Peers",
+        "direction": "output",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 999
+      },
+      {
+        "index": 12,
+        "symbol": "helper_online",
+        "name": "Connection Ready",
+        "direction": "output",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "index": 13,
+        "symbol": "offset_ms",
+        "name": "Link Offset (ms)",
+        "direction": "input",
+        "type": "Control",
+        "default": 0,
+        "minimum": -500,
+        "maximum": 500
+      },
+      {
+        "index": 14,
+        "symbol": "clock_width_ms",
+        "name": "Clock pulse width (ms)",
+        "direction": "input",
+        "type": "Control",
+        "default": 1,
+        "minimum": 1,
+        "maximum": 10,
+        "choices": [
+          1,
+          5,
+          10
+        ]
+      }
+    ]
+  },
+  "audio": {
+    "uri": "urn:hector-community:link:audio",
+    "name": "Ableton Link Audio",
+    "ports": [
+      {
+        "index": 0,
+        "symbol": "enabled",
+        "name": "Link Audio Enabled",
+        "direction": "input",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "index": 1,
+        "symbol": "send",
+        "name": "Send Enabled",
+        "direction": "input",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "index": 2,
+        "symbol": "receive",
+        "name": "Receive Enabled",
+        "direction": "input",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "index": 3,
+        "symbol": "latency_ms",
+        "name": "Receive Latency (ms)",
+        "direction": "input",
+        "type": "Control",
+        "default": 60,
+        "minimum": 10,
+        "maximum": 500
+      },
+      {
+        "index": 4,
+        "symbol": "send_l",
+        "name": "Send Left",
+        "direction": "input",
+        "type": "Audio",
+        "default": 0,
+        "minimum": -1,
+        "maximum": 1
+      },
+      {
+        "index": 5,
+        "symbol": "send_r",
+        "name": "Send Right",
+        "direction": "input",
+        "type": "Audio",
+        "default": 0,
+        "minimum": -1,
+        "maximum": 1
+      },
+      {
+        "index": 6,
+        "symbol": "receive_l",
+        "name": "Receive Left",
+        "direction": "output",
+        "type": "Audio",
+        "default": 0,
+        "minimum": -1,
+        "maximum": 1
+      },
+      {
+        "index": 7,
+        "symbol": "receive_r",
+        "name": "Receive Right",
+        "direction": "output",
+        "type": "Audio",
+        "default": 0,
+        "minimum": -1,
+        "maximum": 1
+      },
+      {
+        "index": 8,
+        "symbol": "send_peak",
+        "name": "Send Peak",
+        "direction": "output",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "index": 9,
+        "symbol": "receive_peak",
+        "name": "Receive Peak",
+        "direction": "output",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "index": 10,
+        "symbol": "overflows",
+        "name": "Queue Overflows",
+        "direction": "output",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1000000000000.0
+      },
+      {
+        "index": 11,
+        "symbol": "missing_frames",
+        "name": "Missing Receive Frames",
+        "direction": "output",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1000000000000.0
+      },
+      {
+        "index": 12,
+        "symbol": "helper_online",
+        "name": "Connection Ready",
+        "direction": "output",
+        "type": "Control",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1
+      }
+    ]
+  }
+}
